@@ -170,42 +170,14 @@
   font-size: var(--text-lg);
 }
 
-/* ----- Phone mockup ----- */
-.phone-mockup {
-  position: relative;
+/* ----- Hero phone screenshot ----- */
+.hero-phone-img {
+  display: block;
   width: min(280px, 90vw);
+  height: auto;
   margin-inline: auto;
-  aspect-ratio: 9 / 19.5;
-  background: linear-gradient(145deg, #2a2a2e 0%, #1a1a1e 100%);
   border-radius: 2.5rem;
-  padding: 0.75rem;
-  box-shadow: var(--shadow-lg), 0 0 0 1px var(--color-border-strong);
-}
-
-.phone-screen {
-  height: 100%;
-  background: var(--color-bg-card);
-  border-radius: 2rem;
-  padding: var(--space-6);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-}
-
-.mockup-status,
-.mockup-downloads {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-}
-
-.mockup-action {
-  padding: var(--space-3) var(--space-4);
-  background: var(--color-accent-muted);
-  color: var(--color-accent);
-  font-weight: 600;
-  font-size: var(--text-sm);
-  border-radius: var(--radius-md);
-  text-align: center;
+  background: transparent;
 }
 
 /* ----- Feature cards ----- */
