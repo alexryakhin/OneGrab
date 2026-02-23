@@ -1,9 +1,9 @@
 /**
- * OneGrab — Base styles
+ * OneGrab - Base styles
  * Reset, typography, focus, selection
  */
 
-/* Minimal reset — normalize only what we need */
+/* Minimal reset - normalize only what we need */
 *,
 *::before,
 *::after {

@@ -1,5 +1,5 @@
 /**
- * OneGrab — Main script
+ * OneGrab - Main script
  * Mobile nav toggle, no dependencies
  */
 
