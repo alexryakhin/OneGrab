@@ -220,8 +220,36 @@
   box-shadow: var(--shadow-glow);
 }
 
-.btn-hero {
+.btn-secondary {
+  background: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+}
+
+.btn-secondary:hover {
+  background: rgba(0, 212, 255, 0.1);
+  color: var(--color-accent);
+}
+
+.hero-buttons,
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
   margin-top: var(--space-4);
+}
+
+.cta-buttons {
+  margin-top: var(--space-4);
+  justify-content: center;
+}
+
+.btn-hero {
+  margin-top: 0;
+}
+
+.hero-buttons .btn-hero:first-child {
+  margin-top: 0;
 }
 
 .btn-lg {
