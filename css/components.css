@@ -210,14 +210,19 @@
               box-shadow var(--duration-fast) var(--ease-out);
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:link,
+.btn-primary:visited,
+.btn-primary:hover,
+.btn-primary:active {
   background: var(--color-accent);
-  color: var(--color-bg);
+  color: #0a0a0b;
 }
 
 .btn-primary:hover {
   background: var(--color-accent-hover);
   box-shadow: var(--shadow-glow);
+  color: #0a0a0b;
 }
 
 .btn-secondary {
