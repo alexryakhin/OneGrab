@@ -1,6 +1,6 @@
 # OneGrab
 
-Save your favorite TikToks, Threads, and clips for later. Copy a link, open OneGrab, tap Save — then keep it in Photos.
+**Files Downloader** for iPhone, iPad, and Mac. Paste a direct file link, tap Save, and keep it on your device.
 
 **[Download on the App Store](https://apps.apple.com/app/id6759439265)**
 
